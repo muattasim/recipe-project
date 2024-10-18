@@ -1,0 +1,264 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8b400;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+article {
+    margin: 20px 0;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main Dishes Section */
+#main-dishes {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Article Styles */
+article {
+    margin-bottom: 20px;
+}
+
+/* Heading Styles */
+h2 {
+    color: #d9534f; /* Bootstrap primary color */
+}
+
+h3 {
+    color: #5a5a5a;
+}
+
+/* Image Styles */
+img {
+    width: 100%; /* Responsive image */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* List Styles */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+/* Preparation Method Styles */
+h4 {
+    margin-top: 20px;
+    color: #333;
+    border-bottom: 2px solid #d9534f; /* Underline */
+    padding-bottom: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #main-dishes {
+        padding: 15px;
+    }
+}
+/* Navigation Bar Styles */
+nav {
+    background-color: #444; /* Dark background */
+    padding: 15px 20px; /* Padding around the nav */
+    border-radius: 8px; /* Rounded corners for the nav */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Deeper shadow for a lifted effect */
+    text-align: center; /* Center the text in the nav */
+}
+
+nav ul {
+    list-style: none; /* Remove bullets from the list */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: inline-flex; /* Use inline-flex to center items */
+}
+
+nav li {
+    margin: 0 15px; /* Space between menu items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #f9f9f9; /* Light text color */
+    padding: 10px 15px; /* Padding around the links */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s ease, transform 0.2s; /* Smooth transition for hover effects */
+}
+
+/* Hover Effect */
+nav a:hover {
+    background-color: #f39c12; /* Bright orange background on hover */
+    transform: scale(1.05); /* Slightly enlarge the link */
+    color: #fff; /* Keep text color white */
+}
+
+/* Active Link Style */
+nav a.active {
+    background-color: #e67e22; /* Different color for active link */
+    color: #fff; /* Keep text color white */
+}
+
+
+
+/* Ingredients Section */
+#ingredients {
+    background-color: #ffffff; /* White background for paper effect */
+    padding: 30px; /* Padding around the section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-bottom: 30px; /* Margin below the section */
+}
+
+/* Other Sections (if any) */
+#other-sections {
+    background-color: #ffffff; /* White background for paper effect */
+    padding: 30px; /* Padding around the section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-bottom: 30px; /* Margin below the section */
+}
+
+/* Title for Sections */
+h2, h3 {
+    font-size: 2em; /* Font size for the headings */
+    margin-bottom: 20px; /* Margin below the headings */
+    text-align: center; /* Center text */
+}
+
+/* Ingredients List */
+#ingredients ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+}
+
+#ingredients li {
+    background-color: #f9f9f9; /* Light grey background for each ingredient */
+    margin: 5px 0; /* Margin between list items */
+    padding: 10px; /* Padding inside each ingredient */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Light shadow effect for list items */
+}
+
+/* Hover effect for list items */
+#ingredients li:hover {
+    background-color: #f1f1f1; /* Change background on hover */
+}
+/* Appetizers Section */
+#appetizers {
+    background-color: #ffffff; /* White background for paper effect */
+    padding: 30px; /* Padding around the section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-bottom: 30px; /* Margin below the section */
+}
+
+/* Desserts Section */
+#desserts {
+    background-color: #ffffff; /* White background for paper effect */
+    padding: 30px; /* Padding around the section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-bottom: 30px; /* Margin below the section */
+}
+
+/* Title for Sections */
+#appetizers h3, #desserts h3 {
+    font-size: 2em; /* Font size for the headings */
+    margin-bottom: 20px; /* Margin below the headings */
+    text-align: center; /* Center text */
+}
+
+/* Appetizers List */
+#appetizers ul, #desserts ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+}
+
+/* List items for Appetizers and Desserts */
+#appetizers li, #desserts li {
+    background-color: #f9f9f9; /* Light grey background for each item */
+    margin: 5px 0; /* Margin between list items */
+    padding: 10px; /* Padding inside each item */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Light shadow effect for list items */
+}
+
+/* Hover effect for list items */
+#appetizers li:hover, #desserts li:hover {
+    background-color: #f1f1f1; /* Change background on hover */
+}
